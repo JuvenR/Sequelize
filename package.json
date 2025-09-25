@@ -1,0 +1,29 @@
+{
+  "name": "sequelize",
+  "version": "1.0.0",
+  "description": "Asignacion para aplicaciones emergentes web",
+  "main": "index.js",
+ "scripts": {
+  "start": "node index.js",
+  "sync:force": "node sync.js --force",
+  "sync:alter": "node sync.js --alter"
+}
+,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuvenR/Sequelize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuvenR/Sequelize/issues"
+  },
+  "homepage": "https://github.com/JuvenR/Sequelize#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "mysql2": "^3.15.1",
+    "sequelize": "^6.37.7"
+  }
+}
+
