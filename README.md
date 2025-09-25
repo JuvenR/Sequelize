@@ -15,20 +15,6 @@ Este proyecto es un ejemplo práctico para trabajar con Sequelize y MySQL, usand
 
 ## Estructura del proyecto
 
-biblioteca/
-├─ models/
-│  ├─ Autor.js
-│  ├─ Editorial.js
-│  ├─ Libro.js
-│  └─ index.js
-├─ db.js
-├─ index.js
-├─ index_alter.js
-├─ sync.js
-├─ package.json
-├─ .env.example
-└─ .gitignore
-
 - models/ → Contiene los modelos de la base de datos y sus relaciones.  
 - db.js → Configuración de conexión a MySQL usando dotenv.  
 - index.js → CRUD básico con creación, consulta, actualización y eliminación.  
