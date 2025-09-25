@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Asignacion para aplicaciones emergentes web",
   "main": "index.js",
- "scripts": {
+"scripts": {
   "start": "node index.js",
-  "sync:force": "node sync.js --force",
-  "sync:alter": "node sync.js --alter"
+  "sync:force": "node index.js",     
+  "sync:alter": "node index_alter.js" 
 }
 ,
   "repository": {
